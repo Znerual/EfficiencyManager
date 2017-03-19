@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/finished"
+        android:id="@+id/imageView2"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_height="64dp"
+        android:background="#FFFFFF"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/pageDialogEditText"
+        android:hint="@string/newPage"
+        />
+
+</LinearLayout>
